@@ -1,0 +1,171 @@
+body, html {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FCF6F5;
+}
+.container{
+    color:#253f4b;
+    height:460px;
+    width:700px; 
+    top:50%;
+    left: 48%;
+    border:#253f4b;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 0px 9px 20px -4px rgb(104, 103, 103);
+    font-size: 18px;;
+    font-family: Bahnschrift SemiBold, Helvetica, sans-serif;
+    position:absolute;
+    transform: translate(-50%,-50%);
+}
+.Rvalue{
+    float:right;
+    width:350px;
+    height:460px;
+    border:none;
+    color: white;
+    text-align: center;
+    background-color:#253f4b ;
+}
+.Lvalue{
+    float: left;
+    width:350px;
+    height: 460px;
+}
+.card{
+    padding: 20px;
+    height:80px;
+}
+.deg{
+    width:85%;
+    float:left;
+    padding-right:0px;
+}
+.Type{
+    padding-left:0px;
+    width:15%;
+    float:right;
+}
+.result{
+    height:80px;
+    padding: 20px; 
+}
+input[type=number]{
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid #828283;
+    width:99%;
+    height:30px;
+    font-size: 15px;
+}
+#unit{
+    background: transparent;
+    border: 2px solid #828283;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width:100%;
+    height:34px;
+    cursor: pointer;
+}
+#ToTemp{
+    background: transparent;
+    border: 2px solid #828283;
+    border-radius: 5px;
+    width:100%;
+    height:34px;
+    cursor: pointer;
+}
+option{
+    color:white;
+    border : solid #828283;
+    border-radius: 10px ;
+    background-color:  #253f4b;
+    box-shadow: 0px 2px 20px -8px rgb(8, 8, 8);
+}
+
+input[type=number]:focus {
+    -moz-outline-radius: 10px solid ;
+    outline-width: 98%;
+    outline-color: #253f4b;
+    border:none;
+    height:31px;
+}
+select:focus{
+    outline-color: #253f4b;
+}
+.res{
+    padding: 20px;
+}
+.button{
+    height: 50px;
+    width:100%;
+    color:white;
+    background-color:#253f4b;
+    border: solid #253f4b;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.button:hover{
+    background-color:253f4b;
+    box-shadow: 0px 2px 20px -4px rgb(8, 8, 8);
+}
+.Rvalue:hover{
+    box-shadow: 0px 2px 20px -4px rgb(8, 8, 8);
+}
+span{
+    position: relative;
+    top:35%;
+    font-size:40px;
+}
+@media  (max-width:700px){
+    .container{
+        width:360px;
+        height:590px;
+        display:block;
+    }
+    .card{
+        height:60px;
+    }
+    .result{
+        height: 60px;
+    }
+    span{
+        top:38%;
+    }
+    .Rvalue{
+        clear:both;
+        height:180px;
+        width:100%;
+    }
+    .Lvalue{
+        clear:both;
+    }
+}
+@media (max-width:480px){
+    .container{
+        width:100% ;
+        height:100%;
+        border:none;
+    }
+    span{
+        top:38%;
+    }
+    .Rvalue{
+        height: 190px;
+        width:100%;
+    }
+    .Lvalue
+    {width:100%;
+    }
+    .res{
+        padding-top: 50px;
+    }
+}
+
+
+

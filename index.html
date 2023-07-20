@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.ico">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="section">
+            <!--right section-->
+            <div class="Rvalue"><span class="value"><img src="image.png" height="150px;"></span></div><br>
+            <!--left section-->
+            <div class="Lvalue">
+                <br><h2 align="center"><b>Enter Temperature </b></h2>
+                <div class="card">
+                    <div class="deg">
+                        <label for="degree">Degree</label><br>
+                        <input id= degree type="number" class="Input" placeholder="Enter value"/>
+                    </div>
+                    <div class="Type">
+                        <br>
+                        <select name="" id="unit">   
+                            <option value="Celcius">ºC</option> 
+                            <option value="Fahrenheit">ºF</option>
+                            <option value="Kelvin">K</option>  
+                        </select><br><br>
+                    </div>           
+                </div>       
+                <div class="result ">
+                    <label for =ToTemp>Result in :</label><br>
+                    <select name="" id="ToTemp">   
+                        <option value="Celcius">Celcius</option> 
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>  
+                    </select>
+                </div>
+                <div class="res">
+                    <button onclick="temprature()" class="button">Convert ➜ </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
